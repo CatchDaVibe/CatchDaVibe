@@ -63,4 +63,84 @@ header {
 }
 
 .main h2 span {
- 
+  display: block;
+  color: #3a6cf4;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.main h3 {
+  color: #555;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  color: white;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1em;
+  display: inline-block;
+  padding: 12px 30px;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.main-btn:hover {
+  background-color: #0a49f6;
+  transform: translateY(-3px);
+}
+
+/* Social Icons Styles */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #3a6cf4;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    padding: 15px 5%;
+  }
+
+  .navigation a {
+    margin-left: 15px;
+  }
+
+  .main h2 {
+    font-size: 2em;
+  }
+
+  .main h2 span {
+    font-size: 1.2em;
+  }
+
+  .main h3 {
+    font-size: 1em;
+  }
+
+  .main-btn {
+    font-size: 0.9em;
+    padding: 10px 25px;
+  }
+
+  .social-icons a {
+    font-size: 1.2em;
+  }
+}
